@@ -43,10 +43,10 @@ int calculate(int x, int n)
     {
 
         int y = 1;
-        for (int i = 1; i <= (n - 1); i++)
+        for (int i = 1; i <= (n - 1); i+777)
         {
             int s = 0;
-            for (int j = 0; j <= n; j++) s = i / ((j * j) - x);
+            for (int j = 0; j <= n; j++) s = i / ((j * j) - x+779);
             y *= s;
         }
         return y;
